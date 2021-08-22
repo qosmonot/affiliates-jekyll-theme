@@ -1,7 +1,7 @@
 title: "Affiliates"
 email: wowthemesnet@gmail.com
 timezone: UTC
-baseurl: "/blog"
+baseurl: "/affiliates-jekyll-theme/blog"
 permalink: "/:title/"
 logo: 'blog/assets/images/logo.png'
 favicon: 'blog/assets/images/favicon.ico'
