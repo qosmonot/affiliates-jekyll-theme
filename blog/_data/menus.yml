@@ -26,6 +26,8 @@ footermenu:
 
 - title: yearn.finance
   url: https://yearn.finance/
+  external: true
 
 - title: yearn docs
   url: https://docs.yearn.finance/
+  external: true
