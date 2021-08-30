@@ -31,3 +31,6 @@ footermenu:
 - title: yearn docs
   url: https://docs.yearn.finance/
   external: true
+
+- title: Privacy Policy
+  url: "privacy-policy/"
