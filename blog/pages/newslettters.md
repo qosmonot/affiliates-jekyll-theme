@@ -1,6 +1,6 @@
 ---
 layout: newsletters
-title: Newsletters
+title: Haber Bülteni
 permalink: "/newsletters/"
 ---
 
