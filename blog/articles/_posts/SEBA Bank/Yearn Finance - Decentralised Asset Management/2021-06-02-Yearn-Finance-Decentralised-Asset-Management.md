@@ -1,15 +1,13 @@
 ---
 layout: post
-title:  "Tree of Codes"
+title:  "Yearn Finance – Decentralised Asset Management"
 author: sal
 categories: [ Jekyll, tutorial ]
 image: assets/images/2.jpg
 ---
 Wednesday, 2 June, 2021
 
-# The Digital Investor
-
-## Yearn Finance – Decentralised Asset Management
+## The Digital Investor
 
 Summary
 
