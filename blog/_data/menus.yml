@@ -13,8 +13,8 @@ topmenu:
 - title: Categories
   url: "categories/"
 
-- title: Get this theme
-  url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
+- title: yearn.finance
+  url: https://yearn.finance/
   class: "ml-2 btn btn-dark text-white px-3"
   external: true
 
@@ -24,12 +24,8 @@ footermenu:
 - title: Home
   url: ""
 
-- title: Privacy Policy
-  url: "privacy-policy/"
+- title: yearn.finance
+  url: https://yearn.finance/
 
-- title: Contact
-  url: "contact/"
-
-- title: Download
-  url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
-  external: true
+- title: yearn docs
+  url: https://docs.yearn.finance/
