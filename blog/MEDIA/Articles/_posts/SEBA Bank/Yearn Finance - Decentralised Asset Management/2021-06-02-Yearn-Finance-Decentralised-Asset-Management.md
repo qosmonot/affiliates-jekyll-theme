@@ -2,7 +2,7 @@
 layout: post
 title:  "Yearn Finance – Decentralised Asset Management"
 author: sal
-categories: [ Jekyll, tutorial ]
+categories: [ Articles ]
 image: assets/images/2.jpg
 ---
 Wednesday, 2 June, 2021

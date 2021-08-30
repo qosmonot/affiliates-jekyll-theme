@@ -2,7 +2,7 @@
 layout: post
 title:  "Iron Bank Fixed Forex audit: Why audits are bad"
 author: sal
-categories: [ Jekyll, tutorial ]
+categories: [ Articles ]
 image: assets/images/2.jpg
 ---
 

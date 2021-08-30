@@ -2,7 +2,7 @@
 layout: post
 title:  "Markdown Example"
 author: john
-categories: [ Jekyll, tutorial ]
+categories: [ Articles ]
 image: assets/images/6.jpg
 published: false
 ---

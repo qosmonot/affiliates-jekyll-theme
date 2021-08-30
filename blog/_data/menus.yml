@@ -8,10 +8,7 @@ topmenu:
   url: "newsletters/"
 
 - title: Articles
-  url: "contact/"
-
-- title: Categories
-  url: "categories/"
+  url: "articles/"
 
 - title: yearn.finance
   url: https://yearn.finance/
