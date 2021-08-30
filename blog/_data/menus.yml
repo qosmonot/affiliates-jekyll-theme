@@ -31,5 +31,5 @@ footermenu:
   class: "ml-2 btn btn-primary text-white px-3"
   external: true
 
-- title: Privacy Policy
+- title: privacy_policy
   url: "privacy-policy/"
