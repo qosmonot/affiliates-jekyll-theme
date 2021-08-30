@@ -1,10 +1,10 @@
 # Top Menu
 topmenu:
 
-- title: Home
+- title: Ana Sayfa
   url: ""
 
-- title: Newsletters
+- title: Haber Bülteni
   url: "newsletters/"
 
 - title: Articles
@@ -18,7 +18,7 @@ topmenu:
 # Footer Menu
 footermenu:
 
-- title: about
+- title: hakkinda
   url: "about/"
 
 - title: yearn.finance
