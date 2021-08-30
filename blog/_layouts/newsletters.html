@@ -6,7 +6,6 @@ permalink: "/newsletters.html"
 
 {% for post in site.categories.Newsletters %}
 <div class="row">
-{% assign pages_list = category[1] %}
 {% for post in pages_list %}
 {% if post.title != null %}
 {% if group == null or group == post.group %}
@@ -20,3 +19,6 @@ permalink: "/newsletters.html"
 {% assign group = nil %}
 </div>
 {% endfor %}
+
+
+<li>{{ post.title }}</li>
