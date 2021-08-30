@@ -4,10 +4,10 @@ topmenu:
 - title: Home
   url: ""
 
-- title: About
-  url: "about/"
+- title: Newsletters
+  url: "newsletters/"
 
-- title: Contact
+- title: Articles
   url: "contact/"
 
 - title: Categories
@@ -21,8 +21,8 @@ topmenu:
 # Footer Menu
 footermenu:
 
-- title: Home
-  url: ""
+- title: about
+  url: "about/"
 
 - title: yearn.finance
   url: https://yearn.finance/
