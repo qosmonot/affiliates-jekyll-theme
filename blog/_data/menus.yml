@@ -15,7 +15,7 @@ topmenu:
 
 - title: yearn.finance
   url: https://yearn.finance/
-  class: "ml-2 btn btn-dark text-white px-3"
+  class: "ml-2 btn btn-primary text-white px-3"
   external: true
 
 # Footer Menu
@@ -26,10 +26,12 @@ footermenu:
 
 - title: yearn.finance
   url: https://yearn.finance/
+  class: "ml-2 btn btn-primary text-white px-3"
   external: true
 
 - title: yearn docs
   url: https://docs.yearn.finance/
+  class: "ml-2 btn btn-primary text-white px-3"
   external: true
 
 - title: Privacy Policy
