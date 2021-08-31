@@ -6,13 +6,6 @@ categories: [ Articles ]
 image: assets/images/2.jpg
 translator: dastronom
 ---
-Wednesday, 2 June, 2021
-
-Translated by <span class="post-name"> {% if post.translator %}{{ translator.display_name }}{% endif %}, </span>
-
-<span class="post-name">
-  <a class="nav-link px-3 {% if post.translator %}{{ translator.display_name }}{% endif %}" href="{% if post.translator %}{{ translator.twitter }}{% endif %}" alt="{{translator.display_name}}">{{translator.twitter}}</a>
-</span>
 
 ## The Digital Investor
 

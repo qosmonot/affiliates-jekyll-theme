@@ -15,26 +15,36 @@ post_class: post-template
         {% assign author = site.authors[page.author] %}
 
 		<div class="col-sm-8">
-            <!-- Post Featured Image -->
+      <!-- Post Featured Image -->
 			{% if page.image %}<img class="featured-image img-fluid rounded" src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.title }}">{% endif %}
 			<!-- End Featured Image -->
+
 			<div class="mainheading">
 
-                <!-- Post Categories -->
-                <div class="after-post-tags">
-                    <ul class="tags">
-                        {% assign sortedCategories = page.categories | sort %}
-                        {% for category in sortedCategories %}
-                        <li>
-                         <a href="{{ site.baseurl }}/categories#{{ category | slugify }}">{{ category }}</a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                <!-- End Categories -->
+      	<!-- Post Categories -->
+        <div class="after-post-tags">
+            <ul class="tags">
+                {% assign sortedCategories = page.categories | sort %}
+                {% for category in sortedCategories %}
+                <li>
+                  <a href="{{ site.baseurl }}/categories#{{ category | slugify }}">{{ category }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <!-- End Categories -->
 
-                <!-- Post Title -->
+        <!-- Post Title -->
 				<h1 class="posttitle">{{ page.title }}</h1>
+
+				<!-- Post Translator -->
+				<div class="">
+					Translated by <span class="post-name"> {% if post.translator %}{{ translator.display_name }}{% endif %}, </span>
+				</div>
+
+				<span class="post-name">
+				  <a class="nav-link px-3 {% if post.translator %}{{ translator.display_name }}{% endif %}" href="{% if post.translator %}{{ translator.twitter }}{% endif %}" alt="{{translator.display_name}}">{{translator.twitter}}</a>
+				</span>
 
 			</div>
 
@@ -82,7 +92,7 @@ post_class: post-template
 					</div>
 					<div class="col-md-10">
 						<a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
-						<span class="author-description">{{ author.description }}</span>						
+						<span class="author-description">{{ author.description }}</span>
 					</div>
 				</div>
                 {% endif %}
