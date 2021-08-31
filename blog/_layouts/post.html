@@ -38,6 +38,13 @@ post_class: post-template
 				<h1 class="posttitle">{{ page.title }}</h1>
 
 				<!-- Post Translator -->
+				{% if page.translator %}
+				<div class="row post-top-meta">
+					<p class="lead mb-4">Translated by</p>
+					<a target="_blank" class="link-dark" href="{{ translator.twitter }}">{{ translator.display_name }}</a>
+				</div>
+
+
 				<div class="">
 					Translated by <span class="post-name"> {% if post.translator %}{{ translator.display_name }}{% endif %}, </span>
 				</div>
@@ -45,6 +52,7 @@ post_class: post-template
 				<span class="post-name">
 				  <a class="nav-link px-3 {% if post.translator %}{{ translator.display_name }}{% endif %}" href="{% if post.translator %}{{ translator.twitter }}{% endif %}" alt="{{translator.display_name}}">{{translator.twitter}}</a>
 				</span>
+				{% endif %}
 
 			</div>
 
